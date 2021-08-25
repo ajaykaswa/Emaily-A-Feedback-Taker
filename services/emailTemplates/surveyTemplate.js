@@ -18,4 +18,4 @@ module.exports = survey => {
       </body>
     </html>
   `;
-}; 
+};

@@ -31,7 +31,7 @@ module.exports = app => {
         if (match) {
           return { email, surveyId: match.surveyId, choice: match.choice };
         }
-      })      
+      })
       .compact()
       .uniqBy('email', 'surveyId')
       .each(({ surveyId, email, choice }) => {
