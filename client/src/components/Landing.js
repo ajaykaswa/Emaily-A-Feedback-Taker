@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Landing =()=>{
+const Landing = () => {
   return (
-    <div style={{textAlign:'center'}}>
+    <div style={{ textAlign: 'center' }}>
       <h1>
-        Emaily!!
+        Emaily!
       </h1>
-     Collect feedback from your users
+      Collect feedback form your users
     </div>
   );
 };
